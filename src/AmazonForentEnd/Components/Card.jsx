@@ -39,11 +39,11 @@ function Card({ id, image, price, title }) {
 const Container = styled.div`
   width: 100%;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   background-color: #fff;
   z-index: 10;
+  box-shadow: 0 1px 8px 0 #00000029;
 `;
 
 const Image = styled.div`

@@ -126,6 +126,8 @@ const Container = styled.div`
 
 const Main = styled.form`
   padding: 15px;
+  position: relative;
+  top: 60px;
 `;
 
 const FormContainer = styled.form`

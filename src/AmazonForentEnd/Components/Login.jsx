@@ -1,10 +1,8 @@
 import React from "react";
-
 import styled from "styled-components";
 import ICON from "../Images/AmazonIcon.png";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
 function Login() {
   return (
     <Container>

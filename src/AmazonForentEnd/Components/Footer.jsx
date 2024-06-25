@@ -3,8 +3,7 @@ import styled from "styled-components";
 function Footer() {
   return (
     <Container>
-      <p>© 2024 - Amazon.com</p>
-
+      <p>© 2024 Amazon.com</p>
       <Name>Created by Sudhanshu Gaikwad</Name>
     </Container>
   );

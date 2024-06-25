@@ -1,0 +1,8 @@
+git pull origin main
+git add .
+git commit -m "Resolved merge conflicts"
+git push origin main
+
+
+
+https://sudhanshu1919.github.io/basic_movie_data/Movie_API.json

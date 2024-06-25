@@ -9,9 +9,7 @@ import { useNavigate } from "react-router-dom";
 function Checkout() {
   const navigate = useNavigate();
   const [{ basket }, dispatch] = useStateValue();
-
   // console.log('CheckOut Page>>>', basket);
-
   const getBasketTotal = (basket) =>
     basket.reduce((amount, item) => item.price + amount, 0);
 
@@ -88,7 +86,8 @@ const Container = styled.div`
 const Main = styled.div`
   display: flex;
   padding: 15px;
-
+  position: relative;
+  top: 60px;
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
   }

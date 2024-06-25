@@ -57,13 +57,13 @@ function Home() {
 const Container = styled.div`
   width: 100%;
   height: fit-content;
-
   background-color: rgb(234, 237, 237);
 `;
 
 const Banner = styled.div`
   width: 100%;
-
+  position: relative;
+  top: 60px;
   img {
     width: 100%;
   }

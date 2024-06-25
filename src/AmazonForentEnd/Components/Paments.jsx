@@ -31,7 +31,9 @@ function Paments() {
           <h2>Review Your Order</h2>
 
           <AddressContainer>
-            <h5>Shopping Address</h5>
+            <h5>
+              <b>Shopping Address</b>
+            </h5>
 
             <div>
               <p style={{ fontSize: "18px" }}>{address.fullname}</p>
@@ -41,24 +43,25 @@ function Paments() {
               <p>{address.landmark}</p>
               <p>{address.city}</p>
               <p>{address.state}</p>
-
               <p>{address.phone}</p>
             </div>
           </AddressContainer>
 
-          <PaymentContainer>
+          {/* <PaymentContainer>
             <h5>Payment Method</h5>
 
             <div>
               <p>Card Details</p>
-              {/* Card Ekement */}
+            
 
               <CardElement />
             </div>
-          </PaymentContainer>
+          </PaymentContainer> */}
 
           <OrderContainer>
-            <h5>Your Order</h5>
+            <h5>
+              <b>Your Order </b>
+            </h5>
 
             <div>
               {basket?.map((product) => (
@@ -98,7 +101,8 @@ const Container = styled.div`
 const Main = styled.div`
     padding: 15px;
     display: flex;
-
+    position: relative;
+  top: 60px;
     @
      only screen and (max-width:1200px) {
         flex-direction: column;

@@ -71,8 +71,9 @@ const Container = styled.div`
   background-color: #131921;
   display: flex;
   align-items: center;
-
-  position: relative;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 0 1px 8px 0 #00000029;
 
   @media only screen and (max-width: 767px) {
     height: 120px;
