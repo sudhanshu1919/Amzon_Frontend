@@ -1,0 +1,27 @@
+p {
+  /* Tablets screen responsive */
+  /* @media only screen and (min-width:767px) {
+        margin-top: -130px;
+        padding: 10px 0px;
+      
+    } */
+
+  /* @media only screen and (max-width:412px) {
+        grid-template-columns: repeat(2,30%);
+        grid-gap: 0;
+        padding: 10px;
+        
+    } */
+}
+
+h1 {
+  /* @media only screen and (max-width:1200px) {
+        flex: none;
+        margin-top: 20px;
+ 
+    } */
+
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+}
